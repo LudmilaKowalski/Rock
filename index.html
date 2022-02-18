@@ -13,30 +13,26 @@
 
 </head>
 <body>
-  <!--
-  You Picked
-  The House Picked
 
-  You Win
-  You Lose
-  -->
   <div class="frame">
  <p style="text-align: left; color:white; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; "> Rock <br> Paper <br> Scissors </p>
     <div class="scored">
  <p style="color: grey; font-family: Arial, Helvetica, sans-serif; margin-left: -1.2rem; margin-top: 0rem ;">Score </p>
- <p class="score" style="color: grey; font-family: Arial, Helvetica, sans-serif; margin-left: -1.5rem; margin-top: 2rem ;"> 0 </p>
+ <p class="score" style="color: grey; font-family: Arial, Helvetica, sans-serif; margin-left: -1.5rem; margin-top: 2rem ; font-weight: bolder;"> 0 </p>
 </div>
 </div>
   <br>
   <div class="papsc" >
-    <a href="./Page2.html" onclick="func()"> <img class="pap" id="pap" src="./images/icon-paper.svg"> </a>  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-      <a href="./Page3.html"> <img class="sci" id="sci" src="./images/icon-scissors.svg"> </a>
+    <a style="z-index: 3;" href="./Page2.html" onclick="func()"> <img class="pap" id="pap" src="./images/icon-paper.svg"> </a>  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      <a style="z-index: 3;" href="./Page3.html"> <img class="sci" id="sci" src="./images/icon-scissors.svg"> </a>
    </div>
      <br>
      <br>
      <div class="papsc">
-      <a href="./Page4.html"><img class="roc" id="roc" src="./images/icon-rock.svg" > </a> 
+      <a style="z-index: 3;" href="./Page4.html"><img class="roc" id="roc" src="./images/icon-rock.svg" > </a> 
    </div>
+
+   <img style="z-index: 3; display: flex; justify-content: center; align-items: center; margin-top: -20rem; margin-left: 30rem; " src="./images/bg-triangle.svg" >
  
 <!--
   <div class="papsc" >
@@ -60,17 +56,20 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
     <br>
+    <br>
+    <br>
+    <br>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
   <div class="popup" onclick="myFunction()">Rules
-    <img class="popuptext" id="myPopup" src="./images/image-rules.svg">
+    <img style="z-index: 3;"class="popuptext" id="myPopup" src="./images/image-rules.svg">
   </div>
   <br>
-  <br>
+  
 
-  <a href="./Page2.html" >page 2</a>
+
 
 <script src="assets/scripts.js"></script>
 

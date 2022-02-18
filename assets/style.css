@@ -1,9 +1,9 @@
 /* index */
 body {
     background: rgb(9,9,121);
-    background-image: url(../images/bg-triangle.svg), radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(4,18,59,1) 50%, rgba(0,0,0,1) 90%);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(4,18,59,1) 50%, rgba(0,0,0,1) 90%);
+    
+   
 
 }
 
@@ -237,6 +237,71 @@ button {
     animation: fadeIn 1s
   }
 
+/* Page 2 */
+
+#win {
+    color:white;
+    text-align: center;
+    z-index: 1;
+    margin-top: -10rem;
+    margin-left: -2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: block; 
+}
+
+#drew {
+    color:white;
+    text-align: center;
+    z-index: 2;
+    margin-top: -10rem;
+    margin-left: -2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: block; 
+}
+
+#loose {
+    color: white;
+    text-align: center;
+    z-index: 3;
+    margin-left: -2rem;
+    margin-top: -10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  display: block;
+
+}
+
+#win.show {
+    visibility: show
+}
+
+#scorew{
+    display:block;
+}
+
+#scorel {
+    display: block;
+}
+
+.again {
+    color:red;
+    text-decoration: none;
+    background-color: white;
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1mm solid white;
+    border-radius: 1rem;
+    margin-bottom: -4rem;
+}
+
+.again:hover {
+    filter: brightness(110%);
+}
+
+/* Fin page 2 */
 
 
 /* Popup container */

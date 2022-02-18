@@ -52,14 +52,28 @@ document.getElementById("myPicture") = house[randomNum];
 
 }
 
- */
+
 
 
 function getRandomImage() {
   let images = ['./images/cis.png','./images/papier.png','./images/rock.png'];
   let image = images[Math.floor(Math.random()*images.length)];
-   
+
+  if (image=="./images/papier.png") {
+    alert("drew")
+  };
+
+  if (image=="./images/rock.png") {
+    alert("win")
+  }
+
+  if (image=="./images/cis.png") {
+    alert("loose")
+  }
+
+
   return image;
+  
   }
    
   function displayRandomImage() {
@@ -69,5 +83,11 @@ function getRandomImage() {
   displayRandomImage();
 
 
+function funck() {
+    let win1 = document.getElementById("win");
+    win1.classList.toggle("show");
+  }
+
+ */
 
   
