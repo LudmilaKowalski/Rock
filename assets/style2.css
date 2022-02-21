@@ -1,0 +1,787 @@
+/* index */
+
+@media only screen and (max-width: 600px) {
+  
+ 
+
+
+body {
+    background: rgb(9,9,121);
+    background-image: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(4,18,59,1) 50%, rgba(0,0,0,1) 90%);
+    background-clip: unset;
+   
+
+}
+
+.papsc {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.papsc2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.papsc3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+    z-index: 4;
+    margin-top: -12rem;
+}
+
+
+
+button {
+    background-color: transparent;
+    border: none;
+    
+}
+
+.tri {
+z-index: 4;
+ display: flex; 
+ justify-content: center; 
+ align-items: center;
+  margin-top: -17.5rem; 
+  margin-left: 3rem;
+}
+.pap{
+    border: 2mm solid rgb(51, 0, 190);
+    border-radius: 6rem;
+    border-width: 1rem;
+    padding: 1.2rem 1.2rem;
+    box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
+                inset 4px 4px rgba(0, 0, 0, .6);
+                background-color: white;
+    
+}
+
+.sci {
+    border: 2mm solid rgb(255, 136, 0);
+    border-radius: 5rem;
+    border-width: 1rem;
+    padding: 1.2rem 1.2rem;
+    box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
+                inset 4px 4px rgba(0, 0, 0, .6);
+                background-color: white;
+}
+
+.roc {
+    border: 2mm solid rgb(190, 0, 0);
+    border-radius: 6rem;
+    border-width: 1rem;
+    padding: 1.2rem 1.2rem;
+    width: 3.9rem;
+    box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
+                inset 4px 4px rgba(0, 0, 0, .6);
+                background-color: white;
+    margin-left: 8rem;
+    filter: opacity(120%);
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2mm solid rgba(165, 170, 216, 0.322);
+    border-radius: 1rem;
+    border-width: 0.2rem;
+    padding: -5rem;
+}
+
+.scored {
+    display: flex;
+    align-items: right;
+    margin-left: 10rem;
+    background-color: white;
+    border:solid, black;
+    padding: 0.3rem 2.5rem;
+    border-radius: 1rem;
+}
+
+.rules {
+    border: 0.2mm solid rgba(165, 170, 216, 0.322);
+    background-color: blue;
+    color: black;
+    padding: 0.3rem 2rem;
+    border-radius: 0.5rem;
+    border-width: 0.2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rules:hover {
+    background-color: rgb(0, 0, 138);
+}
+
+/* fin index */
+
+
+
+.pap2{
+    border: 2mm solid rgb(51, 0, 190);
+    border-radius: 6rem;
+    border-width: 1rem;
+    padding: 1.2rem 1.2rem;
+    box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
+                inset 4px 4px rgba(0, 0, 0, .6);
+                background-color: white;
+    margin-right: 6rem;
+    z-index: 1;
+
+    
+}
+
+.sci2 {
+    border: 2mm solid rgb(255, 136, 0);
+    border-radius: 6rem;
+    border-width: 1rem;
+    padding:1.2rem 1.2rem;
+    box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
+                inset 4px 4px rgba(0, 0, 0, .6);
+                background-color: white;
+    margin-right: 6rem;
+    z-index: 1;
+   
+                
+}
+
+.roc2 {
+    border: 2mm solid rgb(190, 0, 0);
+    border-radius: 6rem;
+    border-width: 1rem;
+    padding: 1.2rem 1.2rem;
+    box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
+                inset 4px 4px rgba(0, 0, 0, .6);
+                background-color: white;
+    margin-right: 6rem;
+    z-index: 1; 
+   
+          
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14rem;
+    margin-top: -8rem;
+    margin-left: 16rem;
+   
+}
+
+
+
+.pap:hover {
+    filter:brightness(110%)
+}
+
+.sci:hover {
+    filter:brightness(110%)
+}
+
+.roc:hover {
+    filter:brightness(110%)
+}
+
+.pap1:hover {
+    filter:brightness(110%)
+}
+
+.sci1:hover {
+    filter:brightness(110%)
+}
+
+.roc1:hover {
+    filter:brightness(110%)
+}
+
+.pap2:hover {
+    filter:brightness(110%)
+}
+
+.sci2:hover {
+    filter:brightness(110%)
+}
+
+.roc2:hover {
+    filter:brightness(110%)
+}
+
+.pap2 .show {
+    visibility: visible;
+  }
+
+.sci2 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+.roc2 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+/* Page 2 */
+
+#win {
+    color:white;
+    text-align: center;
+    z-index: 1;
+    margin-top: -10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: block; 
+}
+
+#drew {
+    color:white;
+    text-align: center;
+    z-index: 2;
+    margin-top: -10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: block; 
+}
+
+#loose {
+    color: white;
+    text-align: center;
+    z-index: 3;
+    margin-top: -10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  display: block;
+
+}
+
+#win.show {
+    visibility: show
+}
+
+#scorew{
+    display:block;
+    color: grey; 
+    font-family: Arial, Helvetica, sans-serif;
+     margin-left: -1.5rem;
+      margin-top: 2rem ;
+       font-weight: bolder;
+}
+
+#scorel {
+    display: block;
+    color: grey; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: -1.5rem; 
+    margin-top: 2rem ; 
+    font-weight: bolder;
+}
+
+#scores {
+    color: grey;
+     font-family: Arial, Helvetica, sans-serif;
+      margin-left: -1.2rem;
+       margin-top: 0rem ;
+}
+
+.pick {
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin-left: -16rem; 
+    margin-top: 1rem ; 
+    z-index: 1;
+}
+
+.pick2 {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin-left: 16rem;
+   z-index: 1;
+   margin-top: -1rem ;
+}
+
+.again {
+    color:red;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1mm solid white;
+    border-radius: 1rem;
+    margin-bottom: -4rem;
+    margin-left: 9.2rem;  
+    font-weight: bolder; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.again:hover {
+    filter: brightness(110%);
+}
+
+/* Fin page 2 */
+
+
+/* Popup container */
+.popup {
+    position: relative;
+   /* left: 18rem;*/
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    border: 0.2mm solid rgba(165, 170, 216, 0.322);
+    color: white;
+    margin-left: 18rem;
+    padding: 0.3rem 2rem;
+    border-radius: 0.5rem;
+    border-width: 0.2rem;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 12rem;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    margin-left:-15rem;
+    margin-bottom: 20rem;
+    z-index: 2;
+    bottom: 650%;
+    left: 50%;
+    
+    
+   
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background: rgb(9,9,121);
+        background-image: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(4,18,59,1) 50%, rgba(0,0,0,1) 90%);
+        
+       
+    
+    }
+    
+    .papsc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .papsc2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -15rem;
+    }
+    
+    .papsc3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25rem;
+        z-index: 4;
+        margin-top: -12rem;
+    }
+    
+    
+    
+    button {
+        background-color: transparent;
+        border: none;
+        
+    }
+
+    .tri {
+        z-index: 4;
+         display: flex; 
+         justify-content: center; 
+         align-items: center;
+          margin-top: -20.5rem; 
+          margin-left: 30rem;
+        }
+    
+    .pap{
+        border: 2mm solid rgb(51, 0, 190);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 3rem 3rem;
+        box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+                    background-color: white;
+    }
+    
+    .sci {
+        border: 2mm solid rgb(255, 136, 0);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 3rem 3rem;
+        box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+                    background-color: white;
+    }
+    
+    .roc {
+        border: 2mm solid rgb(190, 0, 0);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 3rem 3rem;
+        width: 3.9rem;
+        box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+                    background-color: white;
+        margin-left: 14rem;
+    }
+    
+    .frame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 27rem;
+        margin-right: 27rem;
+        border: 0.2mm solid rgba(165, 170, 216, 0.322);
+        border-radius: 1rem;
+        border-width: 0.2rem;
+        padding: -5rem;
+        
+    
+    }
+    
+    .scored {
+        display: flex;
+        align-items: right;
+        margin-left: 10rem;
+        background-color: white;
+        border:solid, black;
+        padding: 0.3rem 2.5rem;
+        border-radius: 1rem;
+    }
+    
+    .rules {
+        border: 0.2mm solid rgba(165, 170, 216, 0.322);
+        background-color: blue;
+        color: black;
+        padding: 0.3rem 2rem;
+        border-radius: 0.5rem;
+        border-width: 0.2rem;
+        margin-left: 72rem;
+        margin-top: 40rem;
+    }
+    
+    .rules:hover {
+        background-color: rgb(0, 0, 138);
+    }
+    
+    /* fin index */
+    
+    .pap1{
+        border: 2mm solid rgb(51, 0, 190);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 3rem 3rem;
+        box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+        
+    }
+    
+    .sci1 {
+        border: 2mm solid rgb(255, 136, 0);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 3rem 3rem;
+        box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+       
+    }
+    
+    .roc1 {
+        border: 2mm solid rgb(190, 0, 0);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 3rem 3rem;
+        width: 3.9rem;
+        box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+    
+    }
+    
+    .pap2{
+        border: 2mm solid rgb(51, 0, 190);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 1.2rem 1.2rem;
+        box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+                    background-color: white;
+        margin-left:-5rem;
+        
+    }
+    
+    .sci2 {
+        border: 2mm solid rgb(255, 136, 0);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 1.2rem 1.2rem;
+        box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+                    background-color: white;
+                    margin-left:-5rem;
+                    
+    }
+    
+    .roc2 {
+        border: 2mm solid rgb(190, 0, 0);
+        border-radius: 6rem;
+        border-width: 1rem;
+        padding: 1.2rem 1.2rem;
+        width: 3.9rem;
+        box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
+                    inset 4px 4px rgba(0, 0, 0, .6);
+                    background-color: white;
+                    margin-left:-5rem;
+              
+    }
+    
+    .place {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 43rem;
+        margin-top: -8rem;
+       
+    }
+    
+    
+    
+    .pap:hover {
+        filter:brightness(110%)
+    }
+    
+    .sci:hover {
+        filter:brightness(110%)
+    }
+    
+    .roc:hover {
+        filter:brightness(110%)
+    }
+    
+    .pap1:hover {
+        filter:brightness(110%)
+    }
+    
+    .sci1:hover {
+        filter:brightness(110%)
+    }
+    
+    .roc1:hover {
+        filter:brightness(110%)
+    }
+    
+    .pap2:hover {
+        filter:brightness(110%)
+    }
+    
+    .sci2:hover {
+        filter:brightness(110%)
+    }
+    
+    .roc2:hover {
+        filter:brightness(110%)
+    }
+    
+    .pap2 .show {
+        visibility: visible;
+      }
+    
+    .sci2 .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+      }
+    
+    .roc2 .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+      }
+    
+    /* Page 2 */
+    
+    #win {
+        color:white;
+        text-align: center;
+        z-index: 1;
+        margin-top: -10rem;
+        padding:2rem;
+        margin-left: -2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        display: block; 
+    }
+    
+    #drew {
+        color:white;
+        text-align: center;
+        z-index: 2;
+        margin-top: -10rem;
+        margin-left: -2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        display: block; 
+        padding:2rem;
+    }
+    
+    #loose {
+        color: white;
+        text-align: center;
+        z-index: 3;
+        margin-left: -2rem;
+        margin-top: -10rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+      display: block;
+      padding:2rem;
+    
+    }
+    
+    #win.show {
+        visibility: show
+    }
+    
+    #scorew{
+        display:block;
+    }
+    
+    #scorel {
+        display: block;
+    }
+    
+    .again {
+        color:red;
+        text-decoration: none;
+        background-color: white;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border: 1mm solid white;
+        border-radius: 1rem;
+        margin-bottom: -2rem;
+        margin-left: 35rem;
+    }
+    
+    .again:hover {
+        filter: brightness(110%);
+    }
+    
+    /* Fin page 2 */
+    
+    
+    /* Popup container */
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        border: 0.2mm solid rgba(165, 170, 216, 0.322);
+        background-color: blue;
+        color: black;
+        padding: 0.3rem 2rem;
+        border-radius: 0.5rem;
+        border-width: 0.2rem;
+        margin-left: 73rem;
+        padding-bottom: -15rem;
+      }
+      
+      /* The actual popup (appears on top) */
+      .popup .popuptext {
+        visibility: hidden;
+        width: 20rem;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 2;
+        bottom: 650%;
+        left: 50%;
+        margin-left: -46rem;
+        
+       
+      }
+      
+      /* Popup arrow */
+      .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+      
+      
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }

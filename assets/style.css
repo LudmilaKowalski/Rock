@@ -2,14 +2,14 @@
 body {
     background: rgb(9,9,121);
     background-image: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(4,18,59,1) 50%, rgba(0,0,0,1) 90%);
-    
+    background-clip: unset;
    
 
 }
 
 .papsc {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -15rem;
+   
 }
 
 .papsc3 {
@@ -42,17 +42,18 @@ button {
     border: 2mm solid rgb(51, 0, 190);
     border-radius: 6rem;
     border-width: 1rem;
-    padding: 3rem 3rem;
+    padding: 1.2rem 1.2rem;
     box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
                 inset 4px 4px rgba(0, 0, 0, .6);
                 background-color: white;
+    
 }
 
 .sci {
     border: 2mm solid rgb(255, 136, 0);
-    border-radius: 6rem;
+    border-radius: 5rem;
     border-width: 1rem;
-    padding: 3rem 3rem;
+    padding: 1.2rem 1.2rem;
     box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
                 inset 4px 4px rgba(0, 0, 0, .6);
                 background-color: white;
@@ -62,7 +63,7 @@ button {
     border: 2mm solid rgb(190, 0, 0);
     border-radius: 6rem;
     border-width: 1rem;
-    padding: 3rem 3rem;
+    padding: 1.2rem 1.2rem;
     width: 3.9rem;
     box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
                 inset 4px 4px rgba(0, 0, 0, .6);
@@ -73,8 +74,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 27rem;
-    margin-right: 27rem;
     border: 0.2mm solid rgba(165, 170, 216, 0.322);
     border-radius: 1rem;
     border-width: 0.2rem;
@@ -100,7 +99,8 @@ button {
     padding: 0.3rem 2rem;
     border-radius: 0.5rem;
     border-width: 0.2rem;
-    margin-left: 74rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 .rules:hover {
@@ -109,45 +109,17 @@ button {
 
 /* fin index */
 
-.pap1{
-    border: 2mm solid rgb(51, 0, 190);
-    border-radius: 6rem;
-    border-width: 1rem;
-    padding: 3rem 3rem;
-    box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
-                inset 4px 4px rgba(0, 0, 0, .6);
-    
-}
 
-.sci1 {
-    border: 2mm solid rgb(255, 136, 0);
-    border-radius: 6rem;
-    border-width: 1rem;
-    padding: 3rem 3rem;
-    box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
-                inset 4px 4px rgba(0, 0, 0, .6);
-   
-}
-
-.roc1 {
-    border: 2mm solid rgb(190, 0, 0);
-    border-radius: 6rem;
-    border-width: 1rem;
-    padding: 3rem 3rem;
-    width: 3.9rem;
-    box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
-                inset 4px 4px rgba(0, 0, 0, .6);
-
-}
 
 .pap2{
     border: 2mm solid rgb(51, 0, 190);
     border-radius: 6rem;
     border-width: 1rem;
-    padding: 3rem 3rem;
+    padding: 1.2rem 1.2rem;
     box-shadow: inset 40px 40px rgba(255, 255, 255, .6),
                 inset 4px 4px rgba(0, 0, 0, .6);
                 background-color: white;
+    margin-right: 6rem;
     
 }
 
@@ -155,10 +127,11 @@ button {
     border: 2mm solid rgb(255, 136, 0);
     border-radius: 6rem;
     border-width: 1rem;
-    padding: 3rem 3rem;
+    padding:1.2rem 1.2rem;
     box-shadow: inset 20px 20px 30px rgba(255, 255, 255, .6),
                 inset 4px 4px rgba(0, 0, 0, .6);
                 background-color: white;
+    margin-right: 6rem;
                 
 }
 
@@ -166,11 +139,11 @@ button {
     border: 2mm solid rgb(190, 0, 0);
     border-radius: 6rem;
     border-width: 1rem;
-    padding: 3rem 3rem;
-    width: 3.9rem;
+    padding: 1.2rem 1.2rem;
     box-shadow: inset  20px 20px 30px rgba(255, 255, 255, .6),
                 inset 4px 4px rgba(0, 0, 0, .6);
                 background-color: white;
+    margin-right: 6rem;
           
 }
 
@@ -178,8 +151,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 43rem;
-    margin-top: -12rem;
+    margin-left: 14rem;
+    margin-top: -8rem;
    
 }
 
@@ -244,7 +217,6 @@ button {
     text-align: center;
     z-index: 1;
     margin-top: -10rem;
-    margin-left: -2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: block; 
@@ -255,7 +227,6 @@ button {
     text-align: center;
     z-index: 2;
     margin-top: -10rem;
-    margin-left: -2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: block; 
@@ -265,7 +236,6 @@ button {
     color: white;
     text-align: center;
     z-index: 3;
-    margin-left: -2rem;
     margin-top: -10rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -289,9 +259,9 @@ button {
     color:red;
     text-decoration: none;
     background-color: white;
-    padding: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     border: 1mm solid white;
     border-radius: 1rem;
     margin-bottom: -4rem;
@@ -307,31 +277,33 @@ button {
 /* Popup container */
 .popup {
     position: relative;
-    display: inline-block;
+   /* left: 18rem;*/
+    display: flex;
+    justify-content: flex-end;
     cursor: pointer;
     border: 0.2mm solid rgba(165, 170, 216, 0.322);
-    background-color: blue;
-    color: black;
+    color: white;
+    margin-left: 18rem;
     padding: 0.3rem 2rem;
     border-radius: 0.5rem;
     border-width: 0.2rem;
-    margin-left: 73rem;
-    padding-bottom: -15rem;
   }
   
   /* The actual popup (appears on top) */
   .popup .popuptext {
     visibility: hidden;
-    width: 20rem;
+    width: 12rem;
     background-color: #555;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     position: absolute;
+    margin-left:-15rem;
+    margin-bottom: 20rem;
     z-index: 2;
     bottom: 650%;
     left: 50%;
-    margin-left: -46rem;
+    
     
    
   }
