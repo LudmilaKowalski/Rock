@@ -45,7 +45,6 @@ button {
 }
 
 .tri {
-z-index: 4;
  display: flex; 
  justify-content: center; 
  align-items: center;
@@ -442,7 +441,7 @@ z-index: 4;
          justify-content: center; 
          align-items: center;
           margin-top: -20.5rem; 
-          margin-left: 30rem;
+          margin-left: 34rem;
         }
     
     .pap{
